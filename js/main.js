@@ -104,6 +104,26 @@ console.log('main.js');
 // [09:56] Marius Kuzminskas
 // // 22. sudauginti skaicius nuo -4 iki 7 ir rezultata atspausdinti padalinta is 3.
 //  like 8
+let nuo=-4;
+let iki=7;
+let result=1;
+
+for(let i=nuo;i<=iki;i++){
+if (i===0) {
+    continue;
+    
+}else{
+result *=i;
+console.log(result);
+}
+
+}
+console.log(result/3);
+
+
+
+
+
 
 // [09:57] Marius Kuzminskas
 // // 23. atspausdinti skaicius stringe nuo 44 iki 66 atskirtus "|| " zenklu
