@@ -133,22 +133,32 @@ console.log('main.js');
 
 //  [12:06] Marius Kuzminskas
 // // 24. Suskaiciuoti kie yra skaiciau 3 kartotiniu nuo 12 iki 57
-//  like 9
-let a=0
-for (let i=12;i<=57;i++){
-if (i%3===0) {
-    a++
-}
+// //  like 9
+// let a=0
+// for (let i=12;i<=57;i++){
+// if (i%3===0) {
+//     a++
+// }
 
-}
-console.log(a)
+// }
+// console.log(a)
 
 
 // [12:08] Marius Kuzminskas
 // // 25. suskaiciuoti koks butu vidurkis skaiciu nuo 45 iki 87
 //  like 8
 
+let min=45;
+let max=87;
+let a=0;
+let sum=0;
+for(let i=min;i<=max;i++){
+a++
+sum +=i;
+console.log(sum);
 
+}
+console.log(sum/a);
 
 
 
