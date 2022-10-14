@@ -148,17 +148,21 @@ console.log('main.js');
 // // 25. suskaiciuoti koks butu vidurkis skaiciu nuo 45 iki 87
 //  like 8
 
-let min=45;
-let max=87;
-let a=0;
-let sum=0;
-for(let i=min;i<=max;i++){
-a++
-sum +=i;
-console.log(sum);
+// let min=45;
+// let max=87;
+// let a=0;
+// let sum=0;
+// for(let i=min;i<=max;i++){
+// a++
+// sum +=i;
+// console.log(sum);
 
-}
-console.log(sum/a);
+// }
+// console.log(sum/a);
+
+
+
+
 
 
 
@@ -167,3 +171,17 @@ console.log(sum/a);
 // // 26. sugeneruoti 3 random skaicius nuo 1 iki 10 ir pranesti:// a: ar buvo skaicius didesnis uz 7?// b: ar buvo skaicius mazesnis uz 3?
 //  like 5
 
+let num1=(1+(Math.random()*9)).toFixed(0);
+let num2=(1+(Math.random()*9)).toFixed(0);
+let num3=(1+(Math.random()*9)).toFixed(0);
+console.log(num1);
+console.log(num2);
+console.log(num3);
+
+if(num1>7||num2>7||num3>7){
+    console.log('turime skaiciu dydesni uz 7');
+} else if(num1<3||num2<3||num3<3){
+    console.log('turime skaiciu mazesniu uz 3');
+} else {
+    console.log('skaiciai tarp 3 ir 7');  
+}
