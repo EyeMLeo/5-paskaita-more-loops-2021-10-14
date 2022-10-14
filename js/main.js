@@ -104,21 +104,21 @@ console.log('main.js');
 // [09:56] Marius Kuzminskas
 // // 22. sudauginti skaicius nuo -4 iki 7 ir rezultata atspausdinti padalinta is 3.
 //  like 8
-let nuo=-4;
-let iki=7;
-let result=1;
+// let nuo=-4;
+// let iki=7;
+// let result=1;
 
-for(let i=nuo;i<=iki;i++){
-if (i===0) {
-    continue;
+// for(let i=nuo;i<=iki;i++){
+// if (i===0) {
+//     continue;
     
-}else{
-result *=i;
-console.log(result);
-}
+// }else{
+// result *=i;
+// console.log(result);
+// }
 
-}
-console.log(result/3);
+// }
+// console.log(result/3);
 
 
 
@@ -134,10 +134,24 @@ console.log(result/3);
 //  [12:06] Marius Kuzminskas
 // // 24. Suskaiciuoti kie yra skaiciau 3 kartotiniu nuo 12 iki 57
 //  like 9
+let a=0
+for (let i=12;i<=57;i++){
+if (i%3===0) {
+    a++
+}
+
+}
+console.log(a)
+
 
 // [12:08] Marius Kuzminskas
 // // 25. suskaiciuoti koks butu vidurkis skaiciu nuo 45 iki 87
 //  like 8
+
+
+
+
+
 
 // [12:08] Marius Kuzminskas
 // // 26. sugeneruoti 3 random skaicius nuo 1 iki 10 ir pranesti:// a: ar buvo skaicius didesnis uz 7?// b: ar buvo skaicius mazesnis uz 3?
